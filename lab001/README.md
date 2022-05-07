@@ -107,6 +107,8 @@ Provided load.py script will allow you to load it to the Nexys4DDR.
 5) Make one of the rgb led blink at: 1Hz for the red, 2Hz for the green,
 4Hz for the blue.
 
+// for de2-115 board, blink 3 red leds 1, 2, 3 at 1Hz, 2Hz and 4Hz respectively
+
 [> Infos
 --------
 Some pitfalls:
