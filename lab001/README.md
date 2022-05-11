@@ -103,9 +103,17 @@ Provided load.py script will allow you to load it to the Nexys4DDR.
 1) Build the design (base.py) and load it (load.py)
 2) System clock is 100Mhz, make the led blink at 1Hz
 3) Connect the 16 switches to the 16 leds.
+
+// kc705 board has 5 user buttons so we only need to connect 5 buttons to the first 5 green leds 
+
 4) Same as 3), but invert the polarity on the 8 first leds.
+
+// for kc705 board, invert the polarity of the led connected to center button on the board
+
 5) Make one of the rgb led blink at: 1Hz for the red, 2Hz for the green,
 4Hz for the blue.
+
+// for kc705 board, blink 3 green leds 1, 2, 3 at 1Hz, 2Hz and 4Hz respectively
 
 // for de2-115 board, blink 3 red leds 1, 2, 3 at 1Hz, 2Hz and 4Hz respectively
 
