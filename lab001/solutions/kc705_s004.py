@@ -55,11 +55,11 @@ class Switches(Module):
         # combinatorial assignements
         for i in range(1,5):
             led = platform.request("user_led", i)
-            btn = platform.request("user_button", i)
+            btn = platform.request("user_btn", i)
             self.comb += led.eq(btn)
         
         led = platform.request("user_led", 0)
-        btn = platform.request("user_button", 0)
+        btn = platform.request("user_btnn", 0)
         self.comb += led.eq(~btn)
 
 module = Switches(platform)
